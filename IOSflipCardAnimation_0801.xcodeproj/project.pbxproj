@@ -13,6 +13,7 @@
 		A370D4A524D5A86900639AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A370D4A324D5A86900639AD5 /* Main.storyboard */; };
 		A370D4A724D5A86A00639AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A370D4A624D5A86A00639AD5 /* Assets.xcassets */; };
 		A370D4AA24D5A86A00639AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A370D4A824D5A86A00639AD5 /* LaunchScreen.storyboard */; };
+		A370D4B424D5C00C00639AD5 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370D4B324D5C00C00639AD5 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A370D4A624D5A86A00639AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A370D4A924D5A86A00639AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A370D4AB24D5A86A00639AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A370D4B324D5C00C00639AD5 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				A370D49D24D5A86900639AD5 /* AppDelegate.swift */,
 				A370D49F24D5A86900639AD5 /* SceneDelegate.swift */,
-				A370D4A124D5A86900639AD5 /* ViewController.swift */,
 				A370D4A324D5A86900639AD5 /* Main.storyboard */,
 				A370D4A624D5A86A00639AD5 /* Assets.xcassets */,
 				A370D4A824D5A86A00639AD5 /* LaunchScreen.storyboard */,
 				A370D4AB24D5A86A00639AD5 /* Info.plist */,
+				A370D4A124D5A86900639AD5 /* ViewController.swift */,
+				A370D4B324D5C00C00639AD5 /* CardViewController.swift */,
 			);
 			path = IOSflipCardAnimation_0801;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				A370D4A224D5A86900639AD5 /* ViewController.swift in Sources */,
 				A370D49E24D5A86900639AD5 /* AppDelegate.swift in Sources */,
+				A370D4B424D5C00C00639AD5 /* CardViewController.swift in Sources */,
 				A370D4A024D5A86900639AD5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
