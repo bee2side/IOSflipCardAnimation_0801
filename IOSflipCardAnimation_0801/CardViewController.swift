@@ -68,6 +68,5 @@ class CardViewController: UIViewController {
         }
         securityLabel0.transform = CGAffineTransform(translationX: securityLabelxPos, y: 0)
         securityLabel1.transform = CGAffineTransform(translationX: securityLabelxPos, y: 0)
-        print(securityLabelxPos)
     }
 }
