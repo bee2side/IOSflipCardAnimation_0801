@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         navigationItem.titleView = UIImageView(image: kakaoconLogo)
         // kakao ID card
         kakaoCertificationBar.setImage(iconKakaoCerification, for: .normal)
-        kakaoCertificationBar.setTitle("Kakao ID Card", for: .normal)
+        kakaoCertificationBar.setTitle("카카오 사원증", for: .normal)
         kakaoCertificationBar.backgroundColor = UIColor(red: 254/255, green: 229/255, blue: 0/255, alpha: 1)
         kakaoCertificationBar.setTitleColor(UIColor(red: 25/255, green: 25/255, blue: 25/255, alpha: 1), for: .normal)
         kakaoCertificationBar.tintColor = UIColor(red: 25/255, green: 25/255, blue: 25/255, alpha: 1)
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         kakaoCertificationBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         // kakao Unit card
         certificationBar.setImage(iconCerification, for: .normal)
-        certificationBar.setTitle("Kakao Unit Card", for: .normal)
+        certificationBar.setTitle("카카오 공동체카드", for: .normal)
         certificationBar.backgroundColor = UIColor(red: 77/255, green: 77/255, blue: 77/255, alpha: 1)
         certificationBar.setTitleColor(UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1), for: .normal)
         certificationBar.tintColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
