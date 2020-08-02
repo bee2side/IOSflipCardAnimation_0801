@@ -14,6 +14,7 @@
 		A370D4A724D5A86A00639AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A370D4A624D5A86A00639AD5 /* Assets.xcassets */; };
 		A370D4AA24D5A86A00639AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A370D4A824D5A86A00639AD5 /* LaunchScreen.storyboard */; };
 		A370D4B424D5C00C00639AD5 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370D4B324D5C00C00639AD5 /* CardViewController.swift */; };
+		A3B5E4FA24D6B8A900E8B376 /* UnitCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B5E4F924D6B8A900E8B376 /* UnitCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A370D4A924D5A86A00639AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A370D4AB24D5A86A00639AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A370D4B324D5C00C00639AD5 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		A3B5E4F924D6B8A900E8B376 /* UnitCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				A370D4AB24D5A86A00639AD5 /* Info.plist */,
 				A370D4A124D5A86900639AD5 /* ViewController.swift */,
 				A370D4B324D5C00C00639AD5 /* CardViewController.swift */,
+				A3B5E4F924D6B8A900E8B376 /* UnitCardViewController.swift */,
 			);
 			path = IOSflipCardAnimation_0801;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B5E4FA24D6B8A900E8B376 /* UnitCardViewController.swift in Sources */,
 				A370D4A224D5A86900639AD5 /* ViewController.swift in Sources */,
 				A370D49E24D5A86900639AD5 /* AppDelegate.swift in Sources */,
 				A370D4B424D5C00C00639AD5 /* CardViewController.swift in Sources */,
