@@ -12,8 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var kakaoCertificationBar: UIButton!
     @IBOutlet weak var certificationBar: UIButton!
     
-
-    
     let iconKakaoCerification = UIImage(named: "ico_certification_b")
     let iconCerification = UIImage(named: "ico_certification")
     let kakaoconLogo = UIImage(named: "commonIcoTitle")
@@ -27,7 +25,6 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.topItem!.title = ""
         navigationController?.navigationBar.tintColor = UIColor(red: 25/255, green: 25/255, blue: 25/255, alpha: 1)
         navigationItem.titleView = UIImageView(image: kakaoconLogo)
-        
         // kakao ID card
         kakaoCertificationBar.setImage(iconKakaoCerification, for: .normal)
         kakaoCertificationBar.setTitle("Kakao ID Card", for: .normal)
@@ -38,7 +35,6 @@ class ViewController: UIViewController {
         kakaoCertificationBar.titleEdgeInsets = UIEdgeInsets(top: 0, left: 17, bottom: 0, right: 0)
         kakaoCertificationBar.layer.cornerRadius = 10
         kakaoCertificationBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-        
         // kakao Unit card
         certificationBar.setImage(iconCerification, for: .normal)
         certificationBar.setTitle("Kakao Unit Card", for: .normal)
@@ -49,9 +45,17 @@ class ViewController: UIViewController {
         certificationBar.titleEdgeInsets = UIEdgeInsets(top: 0, left: 17, bottom: 0, right: 0)
         certificationBar.layer.cornerRadius = 10
         certificationBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-        
     }
-    
-
 }
 
+class UIRoundPrimaryButton: UIButton{
+    required init(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)!
+        self.layer.cornerRadius = 15.0;
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.14).cgColor
+        self.backgroundColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+        self.tintColor = UIColor(red: 25/255, green: 25/255, blue: 25/255, alpha: 1)
+    }
+    
+}
